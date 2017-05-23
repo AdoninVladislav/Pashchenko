@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.slide img{
+	width: 80%;
+}
+.services .row{
+	text-align: center;
+}
+.img_items{
+	margin: 0px auto 15px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 640px) {
+.btn_menu{
+	display: block;
+}
+.menu ul{
+	display: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	background-color: #161616;
+	top: 96px;
+	z-index: 10;
+}
+.menu li{
+	display: block;
+	padding: 8px 0;
+
+}
+.menu li:hover{
+	background-color: #a79d9d;
+}
+.menu a:before{
+	content: "";
+}
+.menu{
+	padding-top: 0;
+}
+}
+@media only screen and (max-width : 768px) {
+	.portfolio_box{
+		text-align: center;
+	}
+	.portfolio_box img{
+		width: 100%;
+		max-width: 220px;
+	}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 325px) {
+	 .port_buttons button{
+	 	margin-right: 4px;
+	 }
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 640px) {
+	.menu ul{
+		display: block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
